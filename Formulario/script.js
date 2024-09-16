@@ -8,15 +8,15 @@
     const demissão = document.getElementById("demissão").value;
  
     //Se for prenchido vazio
-    if(nome === "" || idade === "" || admissão === "" || demissão === ""){
+    if(nome === "" || idade === "" || admissão === "" ){
         alert("Todos os campos devem estar preenchidos");
-        return;
-    }
+    
+}else{
 
     const table = document.getElementById("tabeladados").getElementsByTagName("tbody")[0];
 
     //Criando uma nova linha
-    const novalinha = table.insertRow;
+    const novalinha = table.insertRow();
 
     //valores da linha
     const cellid = novalinha.insertCell(0);
@@ -36,6 +36,4 @@
 
     //limpar formulario
     document.getElementById("form").reset();
-}
-
- 
+}}
