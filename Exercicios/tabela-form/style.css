@@ -1,0 +1,12 @@
+form{
+    top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+
+    position: absolute;
+    left: 30%;
+    width: 20%;
+    height: 4%;
+}
