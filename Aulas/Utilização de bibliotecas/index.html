@@ -1,0 +1,28 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="eu">
+    <title>bootstrap e JQuery</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#hide').click(function(){
+                $('p').hide();
+        });
+        $('#show').click(function(){
+            $('p').show();
+        });
+    });
+    </script>
+</head>
+<body>
+
+    <p>esse texto está sendo mostrado</p>
+    <button id="hide" class="btn btn-danger">esconder</button>
+    <button id="show" class="btn btn-primary">Mostrar</button>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
