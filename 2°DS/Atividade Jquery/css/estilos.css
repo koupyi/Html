@@ -14,8 +14,6 @@
 }
 
 button{
-    position: absolute;
-    top: 500px;
+    position: relative;
+    top: 600px;
 }
-
-.ca

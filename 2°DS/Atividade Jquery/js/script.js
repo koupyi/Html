@@ -1,4 +1,5 @@
-$("#alt1").hide();
+
+$("#alt2").hide();
 $("#alt3").hide();
 $("#dsc2").hide();
 $("#dsc3").hide();
