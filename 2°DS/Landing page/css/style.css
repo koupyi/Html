@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f5f5f5;
+}
+
+section {
+    padding: 50px 20px;
+    border: 5px solid #d4d4d4;
+    border-radius: 10px;
+    margin: 100px; /* Espaço vertical maior entre as seções */
+}
+
+section:first-of-type {
+    margin-top: 20px; /* Reduz o espaçamento superior da primeira seção */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center; /* Centraliza os títulos */
+}
+
+.cards, .integrants, .carousel {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os elementos */
+}
+
+.card, .integrant-card {
+    background: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    flex: 1 1 30%;
+    text-align: center;
+    color: #f5f5f5;
+    max-width: 300px; /* Limita a largura dos cards */
+}
+
+.carousel img, .integrant-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.carousel img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background: #222;
+    color: #f5f5f5;
+}
+
+form button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: #555;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    align-self: center; /* Centraliza o botão */
+}
+
+footer {
+    background: #111;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #00bfff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: none;
+}
+
+.custom-prev-icon,
+.custom-next-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: solid #f5f5f5;
+    border-width: 0 4px 4px 0;
+}
+
+.custom-prev-icon {
+    transform: rotate(135deg);
+}
+
+.custom-next-icon {
+    transform: rotate(-45deg);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.proxima_seção {
+    position: relative;
+    display: flex;
+    left: 50%;
+}
+
+canvas {
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(6, 138, 148);
+}
