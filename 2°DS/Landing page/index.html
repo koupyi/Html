@@ -8,9 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <img src="Paisagem.webp" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;" alt="Imagem de Fundo">
+  <img src="img/fundo.avif" style="position: fixed; width: 100%; top: -10px; height: 102%; z-index: -2;">
 
-  <!-- Seção Home -->
   <section id="home">
     <h1>Bem-vindo à nossa Landing Page</h1>
     <p>Este site fala sobre o futebol na Amazônia.</p>
@@ -28,23 +27,25 @@
         <p>Construção do trabalho em equipe.</p>
       </div>
     </div>
-    <a href="#sobre">Ir para Sobre</a>
+    <div class="proxima_seção">
+      <a href="#sobre" style="color: white; z-index: 1;">Ir para sobre</a>
+      <canvas></canvas>
+    </div>
     <div style="height: 410px;"></div>
   </section>
 
-  <!-- Seção Sobre -->
   <section id="sobre">
     <h1>Sobre Nós</h1>
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="imagem1.jpg" class="d-block" alt="Primeiro Slide">
+          <img src="img/imagem1.jpg" class="d-block" alt="Primeiro Slide">
         </div>
         <div class="carousel-item">
-          <img src="imagem2.jpg" class="d-block" alt="Segundo Slide">
+          <img src="img/imagem2.jpg" class="d-block" alt="Segundo Slide">
         </div>
         <div class="carousel-item">
-          <img src="imagem3.jpg" class="d-block" alt="Terceiro Slide">
+          <img src="img/imagem3.jpg" class="d-block" alt="Terceiro Slide">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -57,13 +58,12 @@
       </button>
     </div>
     <div class="proxima_seção">
-      <a href="#contato" style="color: white;">Ir para Contato</a>
+      <a href="#contato" style="color: white; z-index: 1;">Ir para Contato</a>
       <canvas></canvas>
     </div>
     <div style="height: 300px;"></div>
   </section>
 
-  <!-- Seção Contato -->
   <section id="contato">
     <h1>Contato</h1>
     <form>
@@ -75,42 +75,44 @@
       <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
       <button type="submit">Enviar</button>
     </form>
-    <a href="#localizacao">Ir para Localização</a>
+    <div class="proxima_seção">
+      <a href="#localizacao" style="color: white; z-index: 1;">Ir para Localização</a>
+      <canvas></canvas>
+    </div>
     <div style="height: 300px;"></div>
   </section>
 
-  <!-- Seção Localização -->
   <section id="localizacao">
     <h1>Localização</h1>
-    <div style="width: 100%; height: 400px;">
+    <div class="mapa" style="width: 100%; height: 400px;">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29316.817101511213!2d-47.305030855066924!3d-23.293902122619098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1745344997850!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <a href="#integrantes">Ir para Integrantes</a>
+    <div class="proxima_seção">
+      <a href="#integrantes" style="color: white; z-index: 1;">Ir para integrantes</a>
+      <canvas></canvas>
+    </div>
     <div style="height: 300px;"></div>
   </section>
 
-  <!-- Seção Integrantes -->
   <section id="integrantes">
     <h1>Integrantes</h1>
     <div class="integrants">
       <div class="integrant-card">
-        <img src="integrante1.jpg" alt="Integrante 1" width="150">
-        <p>Integrante 1</p>
+        <img src="img/integrante1.jpg" alt="Integrante 1" width="150">
+        <p>Hector</p>
       </div>
       <div class="integrant-card">
-        <img src="integrante2.jpg" alt="Integrante 2" width="150">
-        <p>Integrante 2</p>
-      </div>
-      <div class="integrant-card">
-        <img src="integrante3.jpg" alt="Integrante 3" width="150">
-        <p>Integrante 3</p>
+        <img src="img/integrante2.jpg" alt="Integrante 2" width="150">
+        <p>João Paulo de Oliveira Fonseca</p>
       </div>
     </div>
-    <a href="#home">Voltar para Home</a>
+    <div class="proxima_seção">
+      <a href="#home" style="color: white; z-index: 1;">Ir para inicio</a>
+      <canvas></canvas>
+    </div>
     <div style="height: 300px;"></div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Hector e João Paulo Fonseca. Todos os direitos reservados.</p>
   </footer>
