@@ -1,0 +1,275 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quadrado{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: rgb(0, 191, 255);
+    width: 100%;
+    height: 100px;
+}
+
+.Mb{
+    position: fixed;
+    left: 35%;
+    top: 10px;
+
+}
+
+.Hp{
+    position: fixed;
+    left: 10%;
+    top: 100px;
+}
+
+.Hd{
+    position: fixed;
+    left: 30%;
+    top: 100px;
+}
+
+.Hq{
+    position: fixed;
+    left: 50%;
+    top: 100px;
+}
+
+.Hpç{
+position: fixed;
+    left: 75%;
+    top: 100px;
+}
+        /* Fieldsets */
+
+.fs1{
+    position: fixed;
+    left: 8%;
+    top: 120px;
+    width: 100%;
+    height: 90%;
+}
+.fs2{
+    position: fixed;
+    left: 28%;
+    top: 120px;
+    width: 100%;
+    height: 90%;
+}
+.fs3{
+    position: fixed;
+    left: 48%;
+    top: 120px;
+    width: 100%;
+    height: 90%;
+}
+.fs4{
+    position: fixed;
+    left: 68%;
+    top: 120px;
+    width: 19%;
+    height: 90%;
+}
+
+.fs5{
+    position: fixed;
+    left: 8%;
+    top: 150px;
+    width: 100%;
+    height: 10%;
+}
+.fs6{
+    position: fixed;
+    left: 8%;
+    top: 350px;
+    width: 100%;
+    height: 10%;
+}
+
+.fs7{
+    position: fixed;
+    left: 8%;
+    top: 550px;
+    width: 100%;
+    height: 10%;
+}
+.p1{
+    position: fixed;
+    left: 10%;
+    top: 180px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+.p2{
+    position: fixed;
+    left: 10%;
+    top: 280px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.p3{
+    position: fixed;
+    left: 10%;
+    top: 380px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+.p4{
+    position: fixed;
+    left: 10%;
+    top: 480px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+.p5{
+    position: fixed;
+    left: 10%;
+    top: 580px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+    /*Descrição*/
+
+.d1{
+    position: fixed;
+    left: 30%;
+    top: 180px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.d2{
+    position: fixed;
+    left: 30%;
+    top: 280px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.d3{
+    position: fixed;
+    left: 30%;
+    top: 380px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.d4{
+    position: fixed;
+    left: 30%;
+    top: 480px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+.d5{
+    position: fixed;
+    left: 30%;
+    top: 580px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+        /*Quantidade*/
+
+.qt1{
+    position: fixed;
+    left: 50%;
+    top: 180px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.qt2{
+    position: fixed;
+    left: 50%;
+    top: 280px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.qt3{
+    position: fixed;
+    left: 50%;
+    top: 380px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.qt4{
+    position: fixed;
+    left: 50%;
+    top: 480px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+.qt5{
+    position: fixed;
+    left: 50%;
+    top: 580px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+    /*Preço*/
+
+.pç1{
+    position: fixed;
+    left: 70%;
+    top: 180px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.pç2{
+    position: fixed;
+    left: 70%;
+    top: 280px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.pç3{
+    position: fixed;
+    left: 70%;
+    top: 380px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.pç4{
+    position: fixed;
+    left: 70%;
+    top: 480px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+.pç5{
+    position: fixed;
+    left: 70%;
+    top: 580px;
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+}
+

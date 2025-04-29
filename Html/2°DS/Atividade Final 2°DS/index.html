@@ -1,0 +1,89 @@
+
+<!--
+Nesta página crie um form com:
+- 3 caixas de texto
+- 1 botão
+- 3 alertas
+3. No alerta 1 mostre:
+- Valores em ordem crescente
+4. No alerta 2 mostre:
+- a média
+5. No alerta 3 execute:
+- Um loop conforme o digitado na caixa 2, esse loop deverá acumular e mostrar a soma dos loops
+Fatorial
+Todos os alertas contém <p>
+Sempre altere o css qdo mostrar o resultado
+-->
+
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<!--Cabeçario-->
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4 cabeçario">
+        <a class="navbar-brand" href="index.html">Calculo</a>
+        <a class="navbar-brand" href="Participantes.html">Participantes</a>
+    </nav>
+
+
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+    <form>
+        <div class="container">
+                <!-- Caixas de texto -->
+                <div class="mb-3">
+                    <label for="numero1" class="form-label">Número 1:</label>
+                    <input type="number" id="numero1" class="form-control" placeholder="Digite o primeiro número">
+                </div>
+                <div class="mb-3">
+                    <label for="numero2" class="form-label">Números 2:</label>
+                    <input type="number" id="numero2" class="form-control" placeholder="Digite o segundo número">
+                </div>
+                <div class="mb-3">
+                    <label for="numero3" class="form-label">Número 3</label>
+                    <input type="number" id="numero3" class="form-control" placeholder="Digite o terceiro número">
+                </div>
+    
+                <!-- Alertas -->
+                <div class="alert alert-primary" role="alert" id="oc">
+                    <p>Os números em ordem crescente aparecerão aqui.</p>
+                </div>
+                <div class="alert alert-success" role="alert" id="media">
+                    <p>A média aparecerá aqui.</p>
+                </div>
+                <div class="alert alert-warning" role="alert" id="loops">
+                    <p>A soma acumulada dos loops aparecerá aqui.</p>
+                </div>
+    
+                <!-- Botão -->
+                <button type="button" id="submit" class="btn btn-primary">Calcular</button>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="js/calculo.js"></script>
+</body>
+
+</html>

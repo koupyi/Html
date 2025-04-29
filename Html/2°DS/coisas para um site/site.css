@@ -1,0 +1,46 @@
+/* Cabeçario */
+.cab_inicial {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10px;
+}
+
+.canvas {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: purple;
+    z-index: -1;
+}
+
+.cabeçario{
+    position: relative;
+    z-index: 1;
+}
+
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+   background-image: none; 
+ }
+
+ .carousel-control-prev-icon::after,
+ .carousel-control-next-icon::after {
+   content: ''; 
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   transform: rotate(135deg); 
+ }
+
+ .carousel-control-prev-icon::after {
+   transform: rotate(45deg); 
+ }
+
+ .carousel-control-next-icon::after {
+   transform: rotate(-135deg); 
+ }

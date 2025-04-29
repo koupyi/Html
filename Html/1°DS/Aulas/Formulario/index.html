@@ -1,0 +1,42 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 - formulario com js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <hr>
+    <form id="form">
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        <br><br>
+    
+        <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required>
+        <br><br>
+        <label for="admissão">admissão</label>
+        <br><br>
+        <input type="date" id="admissão" name="admissão" required>
+        <br><br>
+        <label for="demissão">demissão</label>
+        <br><br>
+        <input type="date" id="demissão" name="demissão">
+        <br><br>
+        <button type="submit" onclick="addlinha()">Adicionar linha</button>
+        <br><br>
+    </form>
+    <br><br>
+    <table id="tabeladados">
+        <thead>
+            <tr>ID </tr>
+            <tr>nome </tr>
+            <tr>idade </tr>
+            <tr>admissão </tr>
+            <tr>demissão </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+        <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.link{
+    font-size: 60px;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+}
+
+.container{
+    position: absolute;
+    font-size: 30px;
+    top: 250px;
+    left: 2%;
+    width: 200%;
+}
+
+button{
+    position: relative;
+    top: 600px;
+}

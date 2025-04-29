@@ -1,0 +1,47 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+   
+</head>
+<body>
+    <form id="form">
+        <label class="numeros">
+        <p>Digite o vlor de A</p>
+        <input type="number" placeholder="Digite A" id="a" name="A" required>
+        <br>
+        <br>
+        <p>Digite o vlor de B</p>
+        <input type="number" placeholder="Digite B" id="b" name="B" required>
+        <br>
+        <br>
+        <p>Digite o vlor de C</p>
+        <input type="number" placeholder="Digite C" id="c" name="C" required>
+        <br>
+        <br>
+        <p>Digite X' ou X"</p>
+        <input type="number" placeholder="Digite X" id="x" name="X" required>
+      </label>
+    </form> 
+
+    <button type="submit" onclick="Submit()">Enviar</button>
+
+
+<table id="tabela">
+    <thead>
+        <tr>
+            <th id="x">X</th>
+            <th id="a">A</th>
+            <th id="b">B</th>
+            <th id="c">C</th>
+            <th id="res">Resultado</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</body>
+</html>
