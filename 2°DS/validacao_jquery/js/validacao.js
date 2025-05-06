@@ -7,13 +7,24 @@ $("#formExemplo").validate({
         },
         txtnome: {
             required: true,
-            rangelength: [2, 50],
+            rangelength: [5, 50],
         },
-        txtidade: {
-            min: 18,
-            max: 100,
+        txtfilhos: {
+            min: 0,
+            max: 10,
+            number: true,
+        },
+        txtsalario: {
+            step: 0.1,
+            Range: [2000, 10000],
+        },
+        txtadmissao: {
             required: true,
-            //range: [18, 100],
+            date: true,
         },
-        }}
+        txtsocial: {
+            required: true,
+            url: true,
+        }
+    }
 });
