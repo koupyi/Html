@@ -1,0 +1,10 @@
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+warning: safe.directory has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change safe.directory.
+[DEBUG] Executando git add . em Html 
