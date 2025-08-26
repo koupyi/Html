@@ -445,3 +445,68 @@ warning: safe.directory ' ' not absolute
 warning: safe.directory has multiple values
 error: cannot overwrite multiple values with a single value
        Use a regexp, --add or --replace-all to change safe.directory.
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+warning: in the working copy of 'Atualizar_log.txt', LF will be replaced by CRLF the next time Git touches it
+[SUCESSO] git add em Html
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+[Html ] Commit registrado
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+[SUCESSO] git pull em Html
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+To https://github.com/koupyi/Html.git
+   4b430e2..35729e3  main -> main
+[SUCESSO] git push em Html
+[SUCESSO] Atualização concluída em Html
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+warning: safe.directory has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change safe.directory.
