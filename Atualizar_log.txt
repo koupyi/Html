@@ -636,3 +636,19 @@ To https://github.com/koupyi/Html.git
    4631dd8..16e7826  main -> main
 [SUCESSO] git push executado com sucesso em "Html" 
 [SUCESSO] Atualização concluída em "Html" 
+warning: in the working copy of 'Atualizar_log.txt', LF will be replaced by CRLF the next time Git touches it
+[SUCESSO] git add . executado com sucesso em "Html" 
+[SUCESSO] git pull executado com sucesso em "Html" 
+To https://github.com/koupyi/Html.git
+   16e7826..32a2b45  main -> main
+[SUCESSO] git push executado com sucesso em "Html" 
+[SUCESSO] Atualização concluída em "Html" 
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory 'REPO_PATH:\=C:/Program Files/Git/' not absolute
+warning: safe.directory ' ' not absolute
+warning: safe.directory has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change safe.directory.
