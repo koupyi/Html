@@ -772,3 +772,11 @@ To https://github.com/koupyi/Html.git
 [SUCESSO] git push executado com sucesso em "Html" 
 [SUCESSO] Atualização concluída em "Html" 
 [DEBUG] Executando git add . em Html 
+warning: in the working copy of 'Atualizar_log.txt', LF will be replaced by CRLF the next time Git touches it
+[DEBUG] Executando git commit em Html 
+[DEBUG] Executando git pull em Html 
+[DEBUG] Executando git push em Html 
+remote: Permission to koupyi/Html.git denied to MatheusBrene.
+fatal: unable to access 'https://github.com/koupyi/Html.git/': The requested URL returned error: 403
+[ERRO] git push falhou em Html 
+[DEBUG] Executando git add . em Html 
